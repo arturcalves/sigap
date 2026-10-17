@@ -17,6 +17,18 @@ npm run typecheck    # confere os tipos
 
 Abra o HTML gerado no navegador. Para escolher outro destino: `SIGAP_OUT=/caminho/arquivo.html npm run build`.
 
+## GitHub Pages
+
+O protótipo é publicado automaticamente pelo workflow do GitHub Actions a
+cada envio para a branch `main`.
+
+Na primeira publicação, abra **Settings → Pages** no repositório e, em
+**Build and deployment → Source**, selecione **GitHub Actions**. Depois,
+acompanhe a execução em **Actions → Publicar no GitHub Pages**.
+
+Endereço do protótipo:
+https://arturcalves.github.io/sigap/
+
 ## Estrutura
 
 ```
